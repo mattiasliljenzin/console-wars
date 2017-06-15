@@ -2,12 +2,12 @@ namespace aw_console_wars.Warriors
 {
     public class DamageReport
     {
-        public int DamageDone { get; }
+        public int DamageDealt { get; }
         public int DamageReceived { get; }
 
-        public DamageReport(int damageDone, int damageReceived)
+        public DamageReport(int damageDealt, int damageReceived)
         {
-            DamageDone = damageDone;
+            DamageDealt = damageDealt;
             DamageReceived = damageReceived;
         }
     }

@@ -1,5 +1,0 @@
-C:\Code\repos\aw-resharper-lab\aw-console-wars\src\aw-console-wars\bin\Debug\netcoreapp1.1\aw-console-wars.deps.json
-C:\Code\repos\aw-resharper-lab\aw-console-wars\src\aw-console-wars\bin\Debug\netcoreapp1.1\aw-console-wars.runtimeconfig.json
-C:\Code\repos\aw-resharper-lab\aw-console-wars\src\aw-console-wars\bin\Debug\netcoreapp1.1\aw-console-wars.runtimeconfig.dev.json
-C:\Code\repos\aw-resharper-lab\aw-console-wars\src\aw-console-wars\obj\Debug\netcoreapp1.1\aw-console-wars.csprojResolveAssemblyReference.cache
-C:\Code\repos\aw-resharper-lab\aw-console-wars\src\aw-console-wars\obj\Debug\netcoreapp1.1\aw-console-wars.AssemblyInfo.cs

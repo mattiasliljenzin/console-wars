@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Linq;
 
 namespace aw_console_wars
 {
@@ -9,7 +7,7 @@ namespace aw_console_wars
         public static void Main(string[] args)
         {
             var warriorGenerator = new WarriorGenerator();
-            var warriors = warriorGenerator.GenerateWarriors(10);
+            var warriors = warriorGenerator.GenerateWarriors(10).ToArray();
 
             var arena = new GameArena();
             arena.AddWarriors(warriors);

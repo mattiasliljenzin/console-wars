@@ -8,7 +8,7 @@ namespace aw.DamageCalculators
 
         public int Calculate(Warrior warrior)
         {
-            return warrior.Strength * DAMAGE_CONSTANT;
+            return warrior.Attributes.Strength * DAMAGE_CONSTANT;
         }
     }
 }

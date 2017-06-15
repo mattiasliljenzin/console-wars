@@ -12,9 +12,9 @@ namespace aw_console_wars
             _currentAttackStrategy = strategy;
         }
 
-        public static void Execute(Warrior warrior, ILivingThing livingThing)
+        public static void Execute(Warrior warrior, Warrior target)
         {
-            _currentAttackStrategy.Execute(warrior, livingThing);
+            _currentAttackStrategy.Execute(warrior, target);
         }
     }
 }

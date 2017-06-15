@@ -14,10 +14,10 @@ namespace aw.AttackStrategies
             _damageCalculator = damageCalculator;
         }
 
-        public void Execute(Warrior warrior, ILivingThing livingThing)
+        public void Execute(Warrior warrior, Warrior target)
         {
             var damage = _damageCalculator.Calculate(warrior);
-            livingThing.CurrentHealth -= damage;
+            target.CurrentHealth -= damage;
         }
     }
 }

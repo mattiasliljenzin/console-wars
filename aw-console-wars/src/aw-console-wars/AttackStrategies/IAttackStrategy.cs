@@ -4,6 +4,6 @@ namespace aw.AttackStrategies
 {
     public interface IAttackStrategy
     {
-        void Execute(Warrior warrior, ILivingThing livingThing);
+        void Execute(Warrior warrior, Warrior target);
     }
 }
