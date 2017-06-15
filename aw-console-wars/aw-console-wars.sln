@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{49230E3A-3497-417A-B580-B7101D8F44B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{16CF1285-CC3D-4A03-B0CE-2F0369111CDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aw-console-wars", "src\aw-console-wars\aw-console-wars.csproj", "{EB6EBBE1-8C3F-44CE-9938-DA9316BE1762}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB6EBBE1-8C3F-44CE-9938-DA9316BE1762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6EBBE1-8C3F-44CE-9938-DA9316BE1762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6EBBE1-8C3F-44CE-9938-DA9316BE1762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6EBBE1-8C3F-44CE-9938-DA9316BE1762}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB6EBBE1-8C3F-44CE-9938-DA9316BE1762} = {49230E3A-3497-417A-B580-B7101D8F44B2}
+	EndGlobalSection
+EndGlobal
