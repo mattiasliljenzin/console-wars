@@ -1,4 +1,5 @@
 ﻿using aw.DamageCalculators;
+using aw_console_wars;
 using aw_console_wars.Warriors;
 
 namespace aw.AttackStrategies
@@ -14,10 +15,12 @@ namespace aw.AttackStrategies
             _damageCalculator = damageCalculator;
         }
 
-        public void Execute(Warrior warrior, Warrior target)
+        public AttackResult Execute(Warrior warrior, Warrior target)
         {
             var damage = _damageCalculator.Calculate(warrior);
             target.CurrentHealth -= damage;
+
+            return new AttackResult(damage);
         }
     }
 }

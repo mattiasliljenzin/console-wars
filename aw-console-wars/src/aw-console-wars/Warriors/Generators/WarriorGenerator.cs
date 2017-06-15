@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using MyNamespace;
 
 namespace aw_console_wars.Warriors.Generators
 {
@@ -10,7 +11,10 @@ namespace aw_console_wars.Warriors.Generators
 
             for (var i = 0; i < numberOfWarriors; i++)
             {
-                yield return null;
+                yield return new BasicWarrior
+                {
+                    Name = NameGenerator.GetRandomName()
+                };
             }
         }
     }
