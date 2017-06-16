@@ -11,10 +11,18 @@ namespace aw_console_wars.Warriors.Generators
 
             for (var i = 0; i < numberOfWarriors; i++)
             {
-                yield return new BasicWarrior
+                if (i == 1)
                 {
-                    Name = NameGenerator.GetRandomName()
-                };
+                    yield return new SuperWarrior();
+                }
+                else
+                {
+                    yield return new BasicWarrior
+                    {
+                        Name = NameGenerator.GetRandomName()
+                    };
+                }
+
             }
         }
     }
