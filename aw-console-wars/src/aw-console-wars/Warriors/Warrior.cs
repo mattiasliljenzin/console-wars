@@ -16,6 +16,6 @@ namespace aw_console_wars.Warriors
         public abstract string Name { get; set; }
         public int CurrentHealth { get; set; }
 
-        public IWarriorAttributes Attributes { get; set; } = new DefaultWarriorAttributes();
+        public abstract IWarriorAttributes Attributes { get; set; } 
     }
 }

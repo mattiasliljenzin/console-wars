@@ -28,7 +28,7 @@ namespace aw_console_wars
             var result = _currentAttackStrategy.Execute(warrior, target);
             UpdateDamageDealers(warrior, result);
 
-            if (ReportFinalBattle)
+            if (true)
             {
                 GameOutput.Report(
                     $"{warrior.Name} ({warrior.CurrentHealth}hp) attacks " +
